@@ -7,7 +7,7 @@
   "background_color": "white",
   "theme_color": "white",
   "share_target": {
-    "action": "/index.html",
+    "action": "./index.html",
     "method": "GET",
     "params": {
       "title": "title",

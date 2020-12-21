@@ -1,6 +1,21 @@
 {
   "name": "Hello World",
   "short_name": "Hello",
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white",
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+
   "icons": [{
     "src": "images/hello-icon-128.png",
       "sizes": "128x128",
@@ -25,10 +40,5 @@
       "src": "images/hello-icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
-    }],
-  "lang": "en-US",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "white",
-  "theme_color": "white"
+    }]
 }

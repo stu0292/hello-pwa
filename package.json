@@ -1,0 +1,19 @@
+{
+  "name": "webpub",
+  "version": "1.0.0",
+  "description": "Convert articles on the web to epub for ereader consumption",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stu0292/hello-pwa.git"
+  },
+  "author": "stu0292",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stu0292/hello-pwa/issues"
+  },
+  "homepage": "https://github.com/stu0292/hello-pwa#readme"
+}
